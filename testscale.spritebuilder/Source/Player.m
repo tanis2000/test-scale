@@ -10,10 +10,10 @@
 
 @implementation Player
 -(void)onEnter {
+    [super onEnter];
     NSLog(@"Player onEnter");
     self.physicsNode.debugDraw = YES;
     
-    [super onEnter];
 }
 
 -(void)update:(CCTime)delta {
